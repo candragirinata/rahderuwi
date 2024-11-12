@@ -4,19 +4,19 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 import { photos } from './photo-data';
 
 function PhotoSection() {
-  const renderYoutubeVideo = () => {
-    return (
-      <iframe
-        title="Pre-Wedding Dinda & Indra"
-        width="100%"
-        height="360px"
-        src="https://www.youtube.com/embed/75w39OY7N-k"
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
-    );
-  };
+  // const renderYoutubeVideo = () => {
+  //   return (
+  //     <iframe
+  //       title="Pre-Wedding Dinda & Indra"
+  //       width="100%"
+  //       height="360px"
+  //       src="https://www.youtube.com/embed/75w39OY7N-k"
+  //       frameBorder="0"
+  //       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  //       allowFullScreen
+  //     ></iframe>
+  //   );
+  // };
 
   return (
     <div id="fh5co-testimonial" className="fh5co-section-gray">
@@ -24,18 +24,21 @@ function PhotoSection() {
         <div className="row">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">#TheKusuma</h2>
+              <h2 className="main-font">#RahdeRuwi</h2>
               <p className="sub-title">
-                "And of His signs is that He created for you from yourselves mates that you may find tranquility in
-                them; and He placed between you affection and mercy. Indeed in that are signs for a people who give
-                thought" <br />
-                (Ar-Rum 30:21).
+                "Grbhnāmi te saubhagatvāya hastam, Mayā patyā jaradastir yathāsah, Bhago aryamā savitā puramdhir, Mahyam tvādurgārhapatyāya devāh."
+                <br />
+                <br />
+                Artinya : Dalam sebuah pernikahan kalian disatukan demi sebuah kebahagiaan dengan janji hati untuk saling membahagiakan. Bersamaku engkau akan hidup selamanya karena Tuhan pasti akan memberikan karunia sebagai pelindung dan saksi dalam pernikahan ini. Untuk itulah kalian dipersatukan dalam satu keluarga.
+
+                <br />
+                (Rgveda : X.85.36)
               </p>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-md-10 col-md-offset-1">{renderYoutubeVideo()}</div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <ImageGallery items={photos} showBullets={false} />;

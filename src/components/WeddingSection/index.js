@@ -2,17 +2,17 @@ import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
 import WeddingInfoBox from './WeddingInfoBox';
-import ButtonLive from './ButtonLive';
 import { styWrapper } from './styles';
+import ButtonGmaps from './ButtonGmaps';
 
 function WeddingSection({ isInvitation }) {
   const renderGuestInfo = () => {
     return (
       <Fragment>
         <div className="col-md-8 col-md-offset-4">
-          <WeddingInfoBox title="Akad Nikah" time="08.00 WIB (Live di Instagram)" date="Sabtu, 03 Oktober 2020" />
+          <WeddingInfoBox title="Resepsi" time="13.00 Wita - Selesai" date="Jumat, 29 November 2024" description="Br.Wanayu, Bedulu,Blahbatuh - Gianyar" />
         </div>
-        <ButtonLive />
+        <ButtonGmaps />
       </Fragment>
     );
   };
@@ -24,9 +24,13 @@ function WeddingSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
-              <h2 className="main-font main-font__wedding">Akad Nikah dan Syukuran Pernikahan</h2>
-              <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
+              <h2 className="main-font main-font__wedding">Waktu & Tempat</h2>
+              {/* <span className="sub-title sub-title__wedding">Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa / Tuhan Yang Maha
+                Esa, Kami Bermasuk Mengundang Bapak/Ibu/Saudara/i pada upacara Manusa Yadnya
+
+                putra-putri kami, yang akan dilaksanakan pada :
+
+              </span> */}
             </div>
           </div>
           <div className="row">
