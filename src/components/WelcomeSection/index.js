@@ -49,8 +49,12 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
 
     return (
       <Fragment>
-        <h3 className="to-dearest">To our Dearest</h3>
+        <h3 className="to-dearest">Kpd Bpk/Ibu/Saudara/i</h3>
         <h2 className="to-dearest-name">{guestName}</h2>
+        <h3 className="to-dearest">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir di Acara Pernikahan Kami.
+        </h3>
+        <br />
+        <br />
       </Fragment>
     );
   };
@@ -68,7 +72,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
-              <img src={WeddingImg} alt="wedding-dinda-indra" />
+              <img src={WeddingImg} alt="wedding-rahde-ruwi" />
               <h4 className="sub-title">The Wedding of</h4>
               <h1 className="title">Rahde &amp; Ruwi</h1>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>

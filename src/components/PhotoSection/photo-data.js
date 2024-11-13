@@ -31,20 +31,16 @@ import GalleryT11 from '@assets/images/gallery-t-11.jpg';
 
 export const photos = [
   {
-    original: Gallery1,
-    thumbnail: GalleryT1,
+    original: Gallery9,
+    thumbnail: GalleryT9,
   },
   {
-    original: Image6,
-    thumbnail: Image6thumb,
+    original: Gallery10,
+    thumbnail: GalleryT10,
   },
   {
-    original: Image5,
-    thumbnail: Image5thumb,
-  },
-  {
-    original: Gallery4,
-    thumbnail: GalleryT4,
+    original: Gallery11,
+    thumbnail: GalleryT11,
   },
   {
     original: Gallery5,
@@ -63,16 +59,20 @@ export const photos = [
     thumbnail: GalleryT8,
   },
   {
-    original: Gallery9,
-    thumbnail: GalleryT9,
+    original: Gallery1,
+    thumbnail: GalleryT1,
   },
   {
-    original: Gallery10,
-    thumbnail: GalleryT10,
+    original: Image6,
+    thumbnail: Image6thumb,
   },
   {
-    original: Gallery11,
-    thumbnail: GalleryT11,
+    original: Image5,
+    thumbnail: Image5thumb,
+  },
+  {
+    original: Gallery4,
+    thumbnail: GalleryT4,
   },
   // {
   //   original: Gallery12,

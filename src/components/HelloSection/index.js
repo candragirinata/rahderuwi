@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/Screenshot from 2024-11-11 20-29-17.png';
-import Groom from '@assets/images/Screenshot from 2024-11-11 20-29-39.png';
+import Bride from '@assets/images/Pasted image (2).png';
+import Groom from '@assets/images/Pasted image.png';
 
 import { styWrapper } from './styles';
 
@@ -25,16 +25,21 @@ function HelloSection({ isInvitation }) {
             </div>
           </div>
           <div className="couple-wrap">
+
             <div className="couple-half">
-              <div className="groom">
-                <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
+              <div className="bride">
+                <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
-              <div className="desc-groom">
-                <h3 className="main-font">Luh Gede Ruwidianingsih, S.Si., M.Kes.</h3>
-                <p className="parent-name parent-name__top">
-                  Putri pertama dari pasangan (Alm) Nyoman Runarta <br />& Putu Widia
+
+
+              <div className="desc-bride">
+                <h3 className="main-font">I Gusti Ngurah Alit Adi Putra, A.Md.Kg</h3>
+                <p className="parent-name">
+                  Putra kedua dari pasangan Gusti Ngurah Suteja <br />& <br /> Ni Ketut Astini
                 </p>
               </div>
+
+
             </div>
             <p className="heart text-center">
               <i className="icon-heart2"></i>
@@ -42,16 +47,20 @@ function HelloSection({ isInvitation }) {
             <div className="and-love">
               <i>&</i>
             </div>
+
             <div className="couple-half">
-              <div className="bride">
-                <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
+              <div className="groom">
+                <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
-              <div className="desc-bride">
-                <h3 className="main-font">I Gusti Ngurah Alit Adi Putra, A.Md.Kg</h3>
-                <p className="parent-name">
-                  Putra kedua dari pasangan Gusti Ngurah Suteja <br />& Ni Ketut Asti
+
+
+              <div className="desc-groom">
+                <h3 className="main-font">Luh Gede Ruwidianingsih, S.Si., M.Kes.</h3>
+                <p className="parent-name parent-name__top">
+                  Putri pertama dari pasangan (Alm) Nyoman Runarta <br />& <br /> Putu Widiasih
                 </p>
               </div>
+
             </div>
           </div>
         </div>
