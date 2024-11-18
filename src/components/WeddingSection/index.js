@@ -10,7 +10,7 @@ function WeddingSection({ isInvitation }) {
     return (
       <Fragment>
         <div className="col-md-8 col-md-offset-4">
-          <WeddingInfoBox title="Resepsi" time="13.00 Wita - Selesai" date="Jumat, 29 November 2024" description="Br.Wanayu, Bedulu,Blahbatuh - Gianyar" />
+          <WeddingInfoBox title="Waktu & Tempat" time="10.00 Wita - Selesai" date="Kamis, 28 November 2024" description="Br.Wanayu, Bedulu,Blahbatuh - Gianyar" />
         </div>
         <ButtonGmaps />
       </Fragment>
@@ -24,7 +24,7 @@ function WeddingSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font main-font__wedding">Waktu & Tempat</h2>
+              {/* <h2 className="main-font main-font__wedding">Waktu & Tempat</h2> */}
               {/* <span className="sub-title sub-title__wedding">Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa / Tuhan Yang Maha
                 Esa, Kami Bermasuk Mengundang Bapak/Ibu/Saudara/i pada upacara Manusa Yadnya
 
@@ -37,7 +37,7 @@ function WeddingSection({ isInvitation }) {
             {!isInvitation && renderGuestInfo()}
             {isInvitation && (
               <div className="col-md-10 col-md-offset-1">
-                <WeddingInfoBox
+                {/* <WeddingInfoBox
                   title="Akad Nikah"
                   time="Akan dilaksanakan pagi hari "
                   date="Sabtu, 03 Oktober 2020"
@@ -48,7 +48,7 @@ function WeddingSection({ isInvitation }) {
                   time="Sesuai jadwal undangan di e-ticket "
                   date="Sabtu, 03 Oktober 2020"
                   description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
-                />
+                /> */}
               </div>
             )}
           </div>

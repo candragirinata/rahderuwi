@@ -20,13 +20,31 @@ import Gallery10 from '@assets/images/gallery-10.jpg';
 import GalleryT10 from '@assets/images/gallery-t-10.jpg';
 import Gallery11 from '@assets/images/gallery-11.jpg';
 import GalleryT11 from '@assets/images/gallery-t-11.jpg';
-// import Gallery12 from '@assets/images/gallery-12.jpg';
+import Gallery12 from '@assets/images/mepandes1.jpg';
+import Gallery13 from '@assets/images/mepandes2.jpg';
+import Gallery14 from '@assets/images/mepandes3.jpg';
+import Gallery15 from '@assets/images/mepandes4.jpg';
+import Gallery16 from '@assets/images/mepandes5.jpg';
+import Gallery17 from '@assets/images/mepandes6.jpg';
+import Gallery18 from '@assets/images/mepandes7.jpg';
+import Gallery19 from '@assets/images/mepandes8.jpg';
+import Gallery20 from '@assets/images/mepandes9.jpg';
+import Gallery21 from '@assets/images/mepandes10.jpg';
+
+import GalleryT12 from '@assets/images/mepandes1-tmb.jpg';
+import GalleryT13 from '@assets/images/mepandes2-tmb.jpg';
+import GalleryT14 from '@assets/images/mepandes3-tmb.jpg';
+import GalleryT15 from '@assets/images/mepandes4-tmb.jpg';
+import GalleryT16 from '@assets/images/mepandes5-tmb.jpg';
+import GalleryT17 from '@assets/images/mepandes6-tmb.jpg';
+import GalleryT18 from '@assets/images/mepandes7-tmb.jpg';
+import GalleryT19 from '@assets/images/mepandes8-tmb.jpg';
+import GalleryT20 from '@assets/images/mepandes9-tmb.jpg';
+import GalleryT21 from '@assets/images/mepandes10-tmb.jpg';
+
 // import GalleryT12 from '@assets/images/gallery-t-12.jpg';
-// import Gallery13 from '@assets/images/gallery-13.jpg';
 // import GalleryT13 from '@assets/images/gallery-t-13.jpg';
-// import Gallery14 from '@assets/images/gallery-14.jpg';
 // import GalleryT14 from '@assets/images/gallery-t-14.jpg';
-// import Gallery15 from '@assets/images/gallery-15.jpg';
 // import GalleryT15 from '@assets/images/gallery-t-15.jpg';
 
 export const photos = [
@@ -74,20 +92,45 @@ export const photos = [
     original: Gallery4,
     thumbnail: GalleryT4,
   },
-  // {
-  //   original: Gallery12,
-  //   thumbnail: GalleryT12,
-  // },
-  // {
-  //   original: Gallery13,
-  //   thumbnail: GalleryT13,
-  // },
-  // {
-  //   original: Gallery14,
-  //   thumbnail: GalleryT14,
-  // },
-  // {
-  //   original: Gallery15,
-  //   thumbnail: GalleryT15,
-  // },
+  {
+    original: Gallery12,
+    thumbnail: GalleryT12,
+  },
+  {
+    original: Gallery13,
+    thumbnail: GalleryT13,
+  },
+  {
+    original: Gallery14,
+    thumbnail: GalleryT14,
+  },
+  {
+    original: Gallery15,
+    thumbnail: GalleryT15,
+  },
+  {
+    original: Gallery16,
+    thumbnail: GalleryT16,
+  },
+  {
+    original: Gallery17,
+    thumbnail: GalleryT17,
+  },
+  {
+    original: Gallery18,
+    thumbnail: GalleryT18,
+  },
+  {
+    original: Gallery19,
+    thumbnail: GalleryT19,
+  },
+  {
+    original: Gallery20,
+    thumbnail: GalleryT20,
+  },
+  {
+    original: Gallery21,
+    thumbnail: GalleryT21,
+  },
+
 ];

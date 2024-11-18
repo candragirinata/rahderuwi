@@ -183,6 +183,11 @@ export const styWrapper = css`
     font-size: 30px;
   }
 
+
+   h5 {
+  color: white;
+}
+
   .getting-married {
     margin-top: -12px;
   }

@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
 import { Link } from 'gatsby';
 
-import WeddingImg from '@assets/images/wedding-logo.png';
+// import WeddingImg from '@assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
 import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
@@ -45,7 +45,10 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
   };
 
   const renderGuestSection = () => {
-    if (isAnonymGuest) return <h2 className="to-dearest-name">Dear Friends,</h2>;
+    if (isAnonymGuest) return <h5 className="text">
+      Kpd Bpk/Ibu/Saudara/i<br />
+      Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir di Acara Pernikahan Kami.
+    </h5>;
 
     return (
       <Fragment>
@@ -72,8 +75,14 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
         <div className="container">
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
-              <img src={WeddingImg} alt="wedding-rahde-ruwi" />
-              <h4 className="sub-title">The Wedding of</h4>
+              {/* <img src={WeddingImg} alt="wedding-rahde-ruwi" /> */}
+              <h2
+                className="sub-title"
+                style={{ fontSize: "26px" }}
+              >
+                <br /><br /><br />Pawiwahan lan Mepandes
+              </h2>
+
               <h1 className="title">Rahde &amp; Ruwi</h1>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
