@@ -91,11 +91,11 @@ function HelloSection({ isInvitation }) {
 
                   <div className="couple-half">
                     <div className="bride">
-                      <img src={Natha} alt="groom" className="img-responsive" loading="lazy" />
+                      <img src={Febriyanti} alt="groom" className="img-responsive" loading="lazy" />
                     </div>
 
                     <div className="desc-bride">
-                      <h3 className="main-font">Gusti Ngurah Ari Semara Natha</h3>
+                      <h3 className="main-font">Gusti Ayu Lia Febriyanti, S.IP</h3>
 
                     </div>
                   </div>
@@ -106,11 +106,11 @@ function HelloSection({ isInvitation }) {
 
                   <div className="couple-half">
                     <div className="bride">
-                      <img src={Febriyanti} alt="groom" className="img-responsive" loading="lazy" />
+                      <img src={Natha} alt="groom" className="img-responsive" loading="lazy" />
                     </div>
 
                     <div className="desc-bride">
-                      <h3 className="main-font">Gusti Ayu Lia Febriyanti, S.IP</h3>
+                      <h3 className="main-font">Gusti Ngurah Ari Semara Natha</h3>
 
                     </div>
                   </div>
